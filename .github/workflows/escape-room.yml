@@ -1,5 +1,8 @@
 name: Escape Room Pipeline
 
+on:
+  push: { branches: rwq3/1 }
+
 jobs:
   build_test:
     runs-on: ubuntu-latest
