@@ -1,5 +1,6 @@
 name: DevOps Escape Room
 on: [push]
+
 jobs:
   build_test:
     runs-on: ubuntu-latest
@@ -10,4 +11,4 @@ jobs:
       - name: Run tests
         run: npm test
       - name: Build (fake)
-        run: echo "Build successful!" 
+        run: echo "Build successful!"
